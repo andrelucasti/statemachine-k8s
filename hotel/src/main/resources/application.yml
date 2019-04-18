@@ -1,0 +1,12 @@
+spring:
+  profiles: localhost
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: springstatemachine
+      repositories:
+        enable: true
+server:
+  port: 8181
